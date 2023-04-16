@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserTicketService", "UserTicketService\UserTicketService.csproj", "{4E213317-111C-47AA-B921-7835BAB7ED26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserTicketService", "UserTicketService\UserTicketService.csproj", "{4E213317-111C-47AA-B921-7835BAB7ED26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserTicketService.Tests", "UserTicketService.Tests\UserTicketService.Tests.csproj", "{01D14B23-FEA7-4124-A3F3-D84528AEA0B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserTicketService.Tests", "UserTicketService.Tests\UserTicketService.Tests.csproj", "{01D14B23-FEA7-4124-A3F3-D84528AEA0B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserTicketService", "UserTicketService", "{9F3FB26C-F132-4D2E-B6AA-1A3EBA0F074A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRepository", "UserRepository\UserRepository.csproj", "{E506DED1-69BE-4230-8D55-CFE67DD62D0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserRepository", "UserRepository\UserRepository.csproj", "{E506DED1-69BE-4230-8D55-CFE67DD62D0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserRepository.Tests", "UserRepository.Tests\UserRepository.Tests.csproj", "{0918E063-367A-429A-B989-4DBB5D3EAE90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRepository", "BookRepository\BookRepository.csproj", "{EB2890A8-40D9-45B3-9066-D1D4B3340506}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRepository.Tests", "BookRepository.Tests\BookRepository.Tests.csproj", "{2905353C-E3CD-4023-8AC1-102029B8551A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +35,18 @@ Global
 		{E506DED1-69BE-4230-8D55-CFE67DD62D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E506DED1-69BE-4230-8D55-CFE67DD62D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E506DED1-69BE-4230-8D55-CFE67DD62D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0918E063-367A-429A-B989-4DBB5D3EAE90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0918E063-367A-429A-B989-4DBB5D3EAE90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0918E063-367A-429A-B989-4DBB5D3EAE90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0918E063-367A-429A-B989-4DBB5D3EAE90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB2890A8-40D9-45B3-9066-D1D4B3340506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2890A8-40D9-45B3-9066-D1D4B3340506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2890A8-40D9-45B3-9066-D1D4B3340506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2890A8-40D9-45B3-9066-D1D4B3340506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2905353C-E3CD-4023-8AC1-102029B8551A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2905353C-E3CD-4023-8AC1-102029B8551A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2905353C-E3CD-4023-8AC1-102029B8551A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2905353C-E3CD-4023-8AC1-102029B8551A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
