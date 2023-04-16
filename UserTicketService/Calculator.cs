@@ -11,5 +11,7 @@ namespace UserTicketService
         public int Subtraction(int a, int b) => a - b;
 
         public int Division(int a, int b) => a / b;
+
+        public int Add(int a, int b)  => a+ b;
     }
 }

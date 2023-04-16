@@ -35,5 +35,13 @@ namespace UserTicketService.Tests
             var calculator = new Calculator();
             Assert.Throws<DivideByZeroException>(() => calculator.Division(10, 0));
         }
+
+        [Test]
+        public void AddAlwaysReturnsExpectedValue()
+        {
+            var calculator = new Calculator();
+            var value = calculator.Add(5, 10);
+            Assert.That(value, Is.EqualTo(15));
+        }
     }
 }
